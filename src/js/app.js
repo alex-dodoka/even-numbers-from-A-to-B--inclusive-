@@ -13,3 +13,8 @@ function getReult() {
     }
 
 }
+
+
+function printHtml(result) {
+    $('#place-for-print').html(result)
+}
