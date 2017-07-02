@@ -12,6 +12,18 @@ function getReult() {
         alert(`B <=30000`);
     }
 
+    for (let i = a; i <= b; i++) {
+        if (i % 2 === 0) {
+            arrOfEvenNumber.push(i);
+        }
+    }
+
+    if (arrOfEvenNumber[0] === 0) {
+        arrOfEvenNumber.splice(0, 1);
+    }
+
+
+    printHtml(arrOfEvenNumber.join(','));
 }
 
 
