@@ -13,13 +13,9 @@ function getReult() {
     }
 
     for (let i = a; i <= b; i++) {
-        if (i % 2 === 0) {
+        if (i % 2 === 0 && i !== 0) {
             arrOfEvenNumber.push(i);
         }
-    }
-
-    if (arrOfEvenNumber[0] === 0) {
-        arrOfEvenNumber.splice(0, 1);
     }
 
 
